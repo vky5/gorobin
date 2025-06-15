@@ -17,3 +17,14 @@ Packages
 - Main:(cmd/main.go) it handles the logic of sending the requests to the servers from the config file 
 
 ![alt text](image.png)
+
+## Config Content
+- Port : Refers to the port number load balancer is listening to 
+- servers : Refers to the registered servers that are in golang
+
+
+## Run
+```bash
+go mod tidy
+go run cmd/main.go --config=config.yaml
+```

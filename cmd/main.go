@@ -13,7 +13,7 @@ import (
 func main() {
 	// getting the list of the backend servers from the config file
 
-	cfg, err := config.LoadConfig("../config.yaml")
+	cfg, err := config.LoadConfig("config.yaml")
 
 	// hamdle the error case
 	if err!=nil{
